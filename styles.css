@@ -280,6 +280,9 @@ a:hover{
        
     font-weight: 500;
     }
+  .title{
+        font-size: 20px;
+    }
 }
 @media only screen and (max-width:338px){
     .chip--flex,.chips{
