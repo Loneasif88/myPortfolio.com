@@ -41,10 +41,11 @@ background-color: skyblue;
     padding: 1rem;
     /* font-weight: 100; */
 }
-.resume-icon{
-    padding-top: 0.4rem;
+.fa{
+    padding-top: 0.6rem;
+    
 }
-.resume-icon:hover{
+.fa:hover{
     transform: scale(1.5);
     cursor: pointer;
     transition: all 0.2s;
