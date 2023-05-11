@@ -1,0 +1,286 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: antiquewhite;
+    margin: 0px;
+    /* overflow: hidden; */
+}
+
+/* Header Styling */
+.header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+border-bottom: 2px solid #000;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 1000;
+background-color: skyblue;
+
+}
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0px;
+    /* padding: 1rem; */
+}
+.title:hover{
+    color:crimson;
+}
+.name{
+    border-right: 1px solid black;
+    padding: 1rem;
+}
+.resume--div{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    border-left: 1px solid black;
+    padding: 1rem;
+    /* font-weight: 100; */
+}
+.resume-icon{
+    padding-top: 0.4rem;
+}
+.resume-icon:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+/* MAIN Component styling */
+.main--component{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 1rem; */
+}
+.left--component{
+    width:60%;
+    border-right: 1px solid black;
+    height: 100%;
+    /* padding: 1rem;*/
+    /* padding-top: 0rem;  */
+}
+.right--component{
+    width: 40%;
+    height: 111vh;
+    background-image: url("./assets/me\ dd.jpeg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0.5rem;
+    margin-top: 3.5rem;
+    padding-top: 6.5rem;
+
+    
+}
+.about--intro{
+    /* margin-top: 0px; */
+    border-bottom: 1px solid black;
+}
+.chip--flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:1rem;
+
+}
+.chips{
+    /* display: flex; */
+    font-size: 20px0;
+    font-weight: 500;
+    padding:0.15rem 1rem;
+    text-align: center;
+    border: 2px solid black;
+    width: 100%;
+    border-radius: 2rem;
+}
+.chips:hover{
+    background-color: black;
+    color: aliceblue;
+    transition: all 0.3s;
+}
+.main--text{
+    font-size: 20px;
+    font-weight: 700;
+}
+.para{
+    font-size: 17px;
+}
+.my-info{
+    border-bottom: 2px solid black;
+    padding: 1.5rem;
+    margin-top: 5rem;
+}
+.education{
+    border-bottom: 2px solid black;
+    padding: 1.5rem;
+}
+.social--component{
+    border-bottom: 1px solid black;
+    display: flex;
+    padding: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(136, 7, 7);
+    transition: all 0.1;
+
+}
+
+.social-flex{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.5rem;
+}
+.social-text{
+    /* justify-content: flex-end; */
+    /* text-align: left; */
+    /* display: flex; */
+    font-size: 20px;
+    font-weight: 700;
+
+}
+    
+.social-img{
+    border: 2px solid black;
+    border-radius: 100%;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+}
+.social-img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+@media only screen and (max-width:1116px){
+    .right--component{
+        width: 60%;
+        height: 130vh;
+    }
+}
+@media only screen and (max-width:1070px){
+    .right--component{
+        width: 50%;
+        
+        /* height: 50vw; */
+        height: 133vh;
+    }
+}
+@media only screen and (max-width:874px){
+    .right--component{
+        width: 50%;
+        height: 140vh;
+    }
+}
+@media only screen and (max-width:780px){
+    .left--component{
+        width:50%;
+        border-right: 1px solid black;
+        height: 100%;
+    }
+    .right--component{
+        width: 50%;
+        background-image: url("./assets/me\ dd.jpeg");
+        height: 148vh;
+        /* height: 886px; */
+    
+    }
+    /* .social-flex{
+       
+        gap: 0.5rem;
+        width: auto;
+        font-size: 10px;
+        font-weight: 500;
+    }
+  */
+}
+@media only screen and (max-width:749px)
+{
+    .main--component{
+        flex-direction: column-reverse;
+        height: 270vh;
+    }
+    .left--component{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 150vh;
+        justify-content: center;
+        
+    } 
+    .right--component
+    {
+        width: 100%;
+    }
+    .my-info{
+        /* padding-top: 0.1rem; */
+        margin-top: 0px;
+    }
+    .name,.resume--div{
+        border: none;
+    }
+    .resume--div h1{
+        display: none;
+    }
+ 
+}
+
+@media only screen and (max-width:405px){
+    .chips{
+        /* display: flex; */
+        font-size: 10px;
+        font-weight: 500;
+        padding:0.15rem 1rem;
+        text-align: center;
+        border: 2px solid black;
+        width: 100%;
+        border-radius: 2rem;
+    }
+    .social-flex{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 0.5rem;
+        width: auto;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .social-img{
+        height: 30px;
+        width: 30px;
+    }
+    .main--text{
+        font-size: 17px;
+    }.para{
+       
+    font-weight: 500;
+    }
+}
+@media only screen and (max-width:338px){
+    .chip--flex,.chips{
+        display: inline; /* the default for span */
+        /* width: 100px; */
+        height: 120px;
+        /* padding: 5px; */
+
+    }
+}
+@media only screen and (max-width:273px){
+.social-flex{
+    display: inline;
+}
+}
