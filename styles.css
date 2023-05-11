@@ -41,6 +41,9 @@ background-color: skyblue;
     padding: 1rem;
     /* font-weight: 100; */
 }
+/* .resume-icon{
+    padding-top: 0.4rem;
+} */
 .fa{
     padding-top: 0.6rem;
     
@@ -212,14 +215,15 @@ a:hover{
 {
     .main--component{
         flex-direction: column-reverse;
-        height: 270vh;
+        height: 128vh;
+
     }
     .left--component{
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 100%;
-        height: 150vh;
+        height: 65vh;
         justify-content: center;
         
     } 
@@ -240,7 +244,12 @@ a:hover{
  
 }
 
-@media only screen and (max-width:405px){
+@media only screen and (max-width:415px){
+    .right--component
+    {
+        width: 162%;
+        height: 33%;
+    }
     .chips{
         /* display: flex; */
         font-size: 10px;
