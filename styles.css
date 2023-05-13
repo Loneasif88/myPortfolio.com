@@ -246,10 +246,13 @@ a:hover{
 }
 
 @media only screen and (max-width:415px){
+  .title{
+    font-size:17px;
+  }
     .right--component
     {
         width: 97%;
-        height: 26%;
+        height: 29%;
     }
     .chips{
         /* display: flex; */
