@@ -556,7 +556,7 @@ a:hover{
     .right--component
     {
         width: 97%;
-        height: 26%;
+        height: 30%;
     }
     .chips{
         /* display: flex; */
@@ -599,7 +599,7 @@ a:hover{
     }
   .right--component
     {
-        height: 28%; 
+        height: 31%; 
         /* height changed */
     }
     .title{
