@@ -599,11 +599,11 @@ a:hover{
     }
   .right--component
     {
-        height: 31%; 
+        height: 35%; 
         /* height changed */
     }
     .title{
-        font-size: 15px;
+        font-size: 25px;
         
     }
 }
